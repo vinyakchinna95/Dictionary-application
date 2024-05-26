@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&family=Sofia&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&family=Sedan+SC&family=Sofia&family=Tangerine:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    background-image: url(pexels-jvbuenconcejo-2719301.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Container_box {
+    width: 550px;
+    background-color: rgb(254, 254, 246);
+    border-radius: 10px;
+    padding: 30px 30px 50px;
+}
+
+.Container_box header {
+    padding-bottom: 5%;
+    font-family: "Sofia", cursive;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 52, 86);
+}
+
+.search_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.search_box input {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 2.5px solid pink;
+    font-size: 16px;
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 94, 121);
+}
+.search_box ::placeholder{
+    color: rgb(255, 94, 121);
+}
+
+.search_box button {
+    list-style: none;
+    margin: 0 10px;
+    height: 45px;
+    width: 45px;
+    border: 2px solid rgb(204, 50, 101);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(204, 50, 101);
+    background-color: rgb(255, 219, 225);
+    transition: all 0.5s;
+}
+
+.search_box button:hover {
+    background-color: rgb(238, 55, 110);
+    transform: scale(1.1);
+}
+
+.search_box button:active {
+    background-color: palevioletred;
+    transform: scale(0.98);
+}
+.result{
+    position: relative;
+}
+
+.result h3{
+    font-size: 35px;
+    font-family: "Sofia", cursive;
+    font-weight: 700;
+    color: rgb(238, 55, 110);
+}
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+.result button{
+    margin: 0 10px;
+    height: 45px;
+    width: 45px;
+    border: 2px solid rgb(204, 50, 101);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(204, 50, 101);
+    background-color: rgb(255, 219, 225);
+    transition: all 0.5s;
+}
+.result button:hover {
+    background-color: rgb(238, 55, 110);
+    transform: scale(1.1);
+}
+
+.result button:active {
+    background-color: palevioletred;
+    transform: scale(0.98);
+}
+
+.result .details{
+    display: flex;
+    gap: 8px;
+    color: pink;
+    font-family: "Salsa", cursive;
+    font-size: 15px;
+    margin: 5px 0 20px 0;
+}
+.meaning{
+    color: rgb(204, 50, 101);
+    font-family: "Salsa", cursive;
+}
+.example{
+    color: rgb(204, 50, 101);
+    font-family: "Salsa", cursive;
+    font-style: italic;
+    border-left: 3px solid pink;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+
+/*.Dictionary_area {
+    margin-top: 20px;
+}
+
+.Dictionary_area input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(204, 50, 101);
+    border-radius: 5px;
+}
+
+.Dictionary_area button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(204, 50, 101);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.Dictionary_area button:hover {
+    background-color: rgb(255, 52, 86);
+    transform: scale(1.05);
+}
+
+.Dictionary_area button:active {
+    background-color: palevioletred;
+    transform: scale(0.98);
+}
+
+.buttons {
+    border-top: 1px solid rgb(109, 14, 46);
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.features ul {
+    display: flex;
+    margin-top: 10px;
+}
+
+.features ul li {
+    list-style: none;
+    margin: 0 5px;
+    height: 45px;
+    width: 45px;
+    border: 2px solid rgb(204, 50, 101);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(204, 50, 101);
+    background-color: rgb(255, 219, 225);
+    transition: all 0.5s;
+}
+
+.features ul li:hover {
+    background-color: rgb(255, 229, 237);
+    transform: scale(1.1);
+}
+
+.features ul li:active {
+    background-color: palevioletred;
+    transform: scale(0.98);
+}*/
