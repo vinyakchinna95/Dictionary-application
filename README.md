@@ -1,0 +1,1 @@
+ dictionary website with a user-friendly front-end interface. The site allows users to search for word definitions, synonyms, and antonyms. I utilized HTML, CSS, and JavaScript to design and implement the front end, ensuring a responsive and intuitive user experience.
